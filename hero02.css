@@ -179,7 +179,7 @@ border-radius: 15px;
 .btn-hex::after{
   content: "";
   position: absolute;
-  background-color: rgba(255, 217, 0, 0.192);
+ background-color:#ebe7084d ;
   width: 100%;
   height: 100%;
   top: 0;
@@ -190,7 +190,7 @@ border-radius: 15px;
 }
 .btn-hex:hover::after {
  clip-path: path("M15 0 Q155 0 155 0 85 10 15 0 15 50 15 50 85 40 155 50 15 50 15 50 15 0 15 0");
-  background-color: rgba(255, 217, 0, 0.822);
+ background-color:#ebe7088a ;
 }
 .btn-blue {
   
