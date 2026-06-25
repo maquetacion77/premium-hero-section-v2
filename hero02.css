@@ -112,7 +112,7 @@ border-radius: 15px;
   grid-column: 1/6;
   grid-row: 8/9;
   background-color:rgba(210, 105, 30, 0.558) ;
-  font-size: 3rem;
+  font-size: 2.4rem;
   font-weight: 900;
   letter-spacing: 2px;
   font-family: var(--fuente-bloque);
@@ -126,7 +126,7 @@ border-radius: 15px;
   grid-column: 1/3;
   grid-row:1/2;
   font-size: 1.4rem;
-  /* font-size: 1.2rem; */
+  
   font-weight: 700;
   letter-spacing: 3px;
   font-family: var(--fuente-bloque);
@@ -140,8 +140,7 @@ border-radius: 15px;
 .hero_noticia article p {
    grid-column: 1/6;
   grid-row: 9/10;
-  /* font-size: 1.5rem; */
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 600;
   letter-spacing: 1px;
   font-family: var(--fuente-bloque);
@@ -172,11 +171,26 @@ border-radius: 15px;
   font-family: var(--fuente-bloque), sans-serif;
   cursor: pointer;
   color: white;
+  letter-spacing: 2px;
   background-color:#d2691e ;
   transition: transform 0.3s ease, filter 0.3s ease;
+  position: relative;
 }
-.btn-hex:hover {
-  transform: translateY(-2px);
+.btn-hex::after{
+  content: "";
+  position: absolute;
+  background-color: rgba(255, 217, 0, 0.192);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+
+ clip-path: path("M15 0 Q155 0 155 0 85 20 15 0 15 50 15 50 85 30 155 50 15 50 15 50 15 0 15 0");
+ transition: 0.3s ease;
+}
+.btn-hex:hover::after {
+ clip-path: path("M15 0 Q155 0 155 0 85 10 15 0 15 50 15 50 85 40 155 50 15 50 15 50 15 0 15 0");
+  background-color: rgba(255, 217, 0, 0.822);
 }
 .btn-blue {
   
@@ -228,7 +242,9 @@ border-radius: 15px;
     padding:  5px 30px;
       background-color:#d2691ed8 ;
       color: #000000;
-    
+      display: flex;
+      align-items: center;
+      justify-content: center;
   }
   .hero_noticia article .date{
     display: none;
@@ -241,7 +257,7 @@ border-radius: 15px;
   }
 
   .hero_noticia article .buttons button {
-    width: 150px;
+   transform: scale(0.9);
     font-size: 1.3rem;   
   }
 
