@@ -4,7 +4,7 @@
 
 El objetivo principal de esta variante fue explorar una estética de alto contraste terroso (`#d2691e`), transparencias modernas y un enfoque de navegación minimalista.
 
-🌐 **Ver el proyecto en vivo (Estilo 02):** [Haz clic aquí para ver en GitHub Pages](https://maquetacion77.github.io/premium-hero-section/)  
+🌐 **Ver el proyecto en vivo (Estilo 02):** [Haz clic aquí para ver en GitHub Pages](https://maquetacion77.github.io/premium-hero-section-v2/)  
 🎨 **Caso de estudio visual:** [Ver presentación completa en Behance](TU_ENLACE_DE_BEHANCE_AQUÍ)
 
 ---
@@ -27,3 +27,7 @@ Al mantener intacta la estructura HTML base y la lógica interactiva, este desar
 ├── index.html       # Estructura semántica base (Compartida/Reutilizada).
 ├── hero02.css       # Estilos temáticos cálidos, Grid interno de artículos y responsive.
 └── hero.js          # Lógica del slider interactivo (Compartida/Reutilizada).
+---
+---
+### 🔗 Otros estilos de esta serie:
+* [Estilo 01 (Corporativo / Azul)](https://maquetacion77.github.io/premium-hero-section/) - La versión original con botones hexagonales y estética oscura.
